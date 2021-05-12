@@ -47,7 +47,7 @@ public class TestContext implements Context {
     }
 
     public LambdaLogger getLogger() {
-        return null;
+        return new TestLogger();
     }
 
     private String functionName;
