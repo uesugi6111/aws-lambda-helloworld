@@ -18,6 +18,7 @@ public class HelloWorldHandlerTest {
     @BeforeAll
     public static void createInput() throws IOException {
         input = new HashMap<>();
+        input.put("key", "value");
     }
 
     private Context createContext() {
