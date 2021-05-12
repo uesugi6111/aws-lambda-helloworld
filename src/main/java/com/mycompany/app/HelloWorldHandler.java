@@ -25,7 +25,6 @@ public class HelloWorldHandler implements RequestHandler<Map<String, Object>, Ma
         logger.log("CONTEXT: " + gson.toJson(context));
         // process event
         logger.log("EVENT: " + gson.toJson(input));
-        logger.log("EVENT TYPE: " + input.getClass());
         return output;
     }
 }
